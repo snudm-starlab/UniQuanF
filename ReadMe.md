@@ -51,12 +51,22 @@ Install dependencies using the following command:
 ```shell
 pip install -r requirements.txt
 ```
-Additionally, install [lm-eval](https://github.com/EleutherAI/lm-evaluation-harness) package using the following command:
+Install [lm-eval](https://github.com/EleutherAI/lm-evaluation-harness) package using the following command:
 ```shell
 git clone --depth 1 https://github.com/EleutherAI/lm-evaluation-harness
+
 cd lm-evaluation-harness
+git checkout tags/v0.4.2
 pip install -e .
 ```
+
+Install [evaluate](https://github.com/huggingface/evaluate) package using the following command:
+```shell
+git clone https://github.com/huggingface/evaluate.git
+cd evaluate
+pip install -e .
+```
+
 ### Datasets
 Our code automatically downloads the dataset needed when you run our `main.py` file except for MMLU. 
 MMLU is located in `data/mmmlu/` directory and you don't have to manually download any datasets.
