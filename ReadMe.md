@@ -94,10 +94,11 @@ If you find UniQuan<sub>F</sub> useful or relevant to your research, please kind
 ```
 @inproceedings{park2025uniquanf,
   title={Unifying Uniform and Binary-coding Quantization for Accurate Compression of Large Language Models},
-  author={Park, Seungcheol and Bae, Jeongin and Kwon, Beomseok and Kim, Minjun and Kim, Byeongwook and Kwon, Se Jung and Kang, U and Lee, Donsoo},
-  booktitle={Proceedings of the 63rd Annual Meeting of the Association for Computational
-                  Linguistics (Volume 1: Long Papers), {ACL} 2025, Vienna, Austria,
-                  July 27-August 1st, 2025},
+  author={Park, Seungcheol and Bae, Jeongin and Kwon, Beomseok and Kim,
+ Minjun and Kim, Byeongwook and Kwon, Se Jung and Kang, U and Lee, Donsoo},
+  booktitle={Proceedings of the 63rd Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), {ACL} 2025,
+Vienna, Austria, July 27-August 1st, 2025},
   year={2025}
 }
 ```
