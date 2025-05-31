@@ -51,9 +51,10 @@ Install dependencies using the following command:
 ```shell
 pip install -r requirements.txt
 ```
-Additionally, install `lm-eval` package using the following command:
+Additionally, install [lm-eval](https://github.com/EleutherAI/lm-evaluation-harness) package using the following command:
 ```shell
-cd src/_eval/lm_evaluation_harness
+git clone --depth 1 https://github.com/EleutherAI/lm-evaluation-harness
+cd lm-evaluation-harness
 pip install -e .
 ```
 ### Datasets
