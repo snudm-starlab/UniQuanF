@@ -53,11 +53,11 @@ pip install -r requirements.txt
 ```
 Install [lm-eval](https://github.com/EleutherAI/lm-evaluation-harness) package using the following command:
 ```shell
-git clone --depth 1 https://github.com/EleutherAI/lm-evaluation-harness
-
+git clone https://github.com/EleutherAI/lm-evaluation-harness
 cd lm-evaluation-harness
 git checkout tags/v0.4.2
 pip install -e .
+cd ..
 ```
 
 Install [evaluate](https://github.com/huggingface/evaluate) package using the following command:
@@ -65,6 +65,7 @@ Install [evaluate](https://github.com/huggingface/evaluate) package using the fo
 git clone https://github.com/huggingface/evaluate.git
 cd evaluate
 pip install -e .
+cd ..
 ```
 
 ### Datasets
