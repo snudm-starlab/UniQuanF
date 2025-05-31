@@ -91,7 +91,7 @@ bash scripts/evaluate.sh
 
 ## Reference
 If you find UniQuan<sub>F</sub> useful or relevant to your research, please kindly cite our paper:
-```
+```bibtex
 @inproceedings{park2025uniquanf,
   title={Unifying Uniform and Binary-coding Quantization for
          Accurate Compression of Large Language Models},
