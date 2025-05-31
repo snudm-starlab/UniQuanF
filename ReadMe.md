@@ -105,6 +105,9 @@ If you find UniQuan<sub>F</sub> useful or relevant to your research, please kind
 }
 ```
 
+## License
+This repository is for research purposes only. For any other purposes, please contact the authors.
+
 ## Related Projects
 * [Transformers](https://github.com/huggingface/transformers/blob/main/examples/pytorch/language-modeling/run_clm.py)
 * [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness.git)
